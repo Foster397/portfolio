@@ -2,3 +2,5 @@ SELECT ROUND(AVG(price)) AS avg_price, ROUND(AVG(beds)) as avg_beds, ROUND(AVG(b
 FROM capstone-424015.crime_data.house_listings
 WHERE zipcode IS NOT NULL
 GROUP BY zipcode
+
+-- this gave me the table 'bq_avg_house_by_zip'
